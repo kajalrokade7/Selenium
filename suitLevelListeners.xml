@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.crm.listeners1.Basic"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngShoe.Bata"/>
+      <class name="testngBike.Yamaha"/>
+      <class name="testngShoe.Nike"/>
+      <class name="testngShoe.Reebok"/>
+      <class name="testngBike.Ktm"/>
+      <class name="testngBike.Honda"/>
+      <class name="testngShoe.Campus"/>
+      <class name="testngBike.Tvs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
